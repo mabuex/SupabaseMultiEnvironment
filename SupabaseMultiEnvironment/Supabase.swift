@@ -13,21 +13,11 @@ fileprivate enum SupabaseEnvironment: String {
     case production = "Production"
     
     var supabaseURL: URL {
-        switch self {
-        case .develop:
-            url(.develop)
-        case .production:
-            url(.production)
-        }
+        url(self)
     }
     
     var supabaseKey: String {
-        switch self {
-        case .develop:
-            key(.develop)
-        case .production:
-            key(.production)
-        }
+        key(self)
     }
 }
 
