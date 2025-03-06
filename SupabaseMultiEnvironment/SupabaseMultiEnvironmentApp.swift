@@ -15,3 +15,5 @@ struct SupabaseMultiEnvironmentApp: App {
         }
     }
 }
+
+let supabase = Supabase.develop

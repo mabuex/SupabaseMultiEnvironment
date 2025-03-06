@@ -1,0 +1,14 @@
+//
+//  Supabase.xcconfig
+//  SupabaseMultiEnvironment
+//
+//  Created by Marcus Buexenstein on 3/6/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+SUPABASE_DEVELOP_URL =
+SUPABASE_PRODUCTION_URL =
+SUPABASE_DEVELOP_ANON_KEY =
+SUPABASE_PRODUCTION_ANON_KEY =
