@@ -1,0 +1,1 @@
+This project demonstrates how to set up and manage multiple Supabase environments (local, staging, production) in an iOS app using Swift. It covers environment configuration, integrating Supabase with Xcode, and switching between environments seamlessly.
